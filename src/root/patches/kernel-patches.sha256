@@ -1,3 +1,28 @@
 # Hash lines should be below their respective URL lines
-# URL https://git.kernel.org/?p=linux/kernel/git/mszeredi/vfs.git;a=patch;h=refs/heads/overlayfs.v13;hp=36be50515fe2aef61533b516fa2576a2c7fe7664
-ef579f695095c18d5c327e06ffd8d34f43d1cc05f7e56478af2446fae190a6dd  /usr/local/portage/distfiles/overlayfs.v13-3.4-rc7.patch
+# All commits from 36be50515fe2aef61533b516fa2576a2c7fe7664 to refs/heads/overlayfs.v13 :
+# URL https://git.kernel.org/cgit/linux/kernel/git/mszeredi/vfs.git/patch/?id=ce63c57ecd21ff98799d96bd9c87209b3777084d
+8c5ff391faf54a7e0b07dcd92086d4acb77431a2cab6a699afe746da79be885b  /usr/local/portage/distfiles/overlayfs.v13-3.4-rc7.01.patch
+# URL https://git.kernel.org/cgit/linux/kernel/git/mszeredi/vfs.git/patch/?id=305101a16a69df2df4edc6204fe699c88aaf66c8
+7262d2a84bf1880ee2111d80f08f51216f76825a0892ff9b9d99e19df603523d  /usr/local/portage/distfiles/overlayfs.v13-3.4-rc7.02.patch
+# URL https://git.kernel.org/cgit/linux/kernel/git/mszeredi/vfs.git/patch/?id=1239ae81cbb1fa91f8c533fab1b73ea69bddce17
+4b6acead73c93bf5e0b972d93b1914156c4950b51f962b1153b947dc8a499ae3  /usr/local/portage/distfiles/overlayfs.v13-3.4-rc7.03.patch
+# URL https://git.kernel.org/cgit/linux/kernel/git/mszeredi/vfs.git/patch/?id=4dac444442188dee81acd1dcf4e6ec484b87049a
+8650af0d0e5c349159fe07fdd4e4336cc8d1fe096d52f7314e4ee49db6146b0d  /usr/local/portage/distfiles/overlayfs.v13-3.4-rc7.04.patch
+# URL https://git.kernel.org/cgit/linux/kernel/git/mszeredi/vfs.git/patch/?id=825a95802a04d169c6b249d96e70acbe8ccc17df
+4c3ea643daee4e5993d25e467fa3997cca00d251e8f4a9754e93049c2eb129ad  /usr/local/portage/distfiles/overlayfs.v13-3.4-rc7.05.patch
+# URL https://git.kernel.org/cgit/linux/kernel/git/mszeredi/vfs.git/patch/?id=72daa95b0dc380771e5fd4528d82a13f856b5b6b
+91ab68f8d2d40d3fbfe973aa95b152ec9419e2d7fb548f970cd2923d60730581  /usr/local/portage/distfiles/overlayfs.v13-3.4-rc7.06.patch
+# URL https://git.kernel.org/cgit/linux/kernel/git/mszeredi/vfs.git/patch/?id=6b5dca8c2e86b16b2927e1da19dc35279af1fc42
+9463c84d985f4abf3f7e64da233691f6c8d2a48d7c40387ccb11464df64ac6ad  /usr/local/portage/distfiles/overlayfs.v13-3.4-rc7.07.patch
+# URL https://git.kernel.org/cgit/linux/kernel/git/mszeredi/vfs.git/patch/?id=c562d4813091c66bf875e5fb2bae58f2a7acc32b
+e142179b825d2001c78500dc0d5ef38e5dd6dfb7971fdaf02521df9940be459b  /usr/local/portage/distfiles/overlayfs.v13-3.4-rc7.08.patch
+# URL https://git.kernel.org/cgit/linux/kernel/git/mszeredi/vfs.git/patch/?id=9f772650a89be1ddcd27a8fe725701d4455441b9
+c70f41a016e737a44d7484061734af5cc15f2c6306b30ef5f26428326869c64e  /usr/local/portage/distfiles/overlayfs.v13-3.4-rc7.09.patch
+# URL https://git.kernel.org/cgit/linux/kernel/git/mszeredi/vfs.git/patch/?id=07ca3da4f970f5bd291f810955973ecde3d047dc
+5b4f153ed2ff3dea4c82e8675ee5ca53b83df4d539b658e74fdb84061b2401fc  /usr/local/portage/distfiles/overlayfs.v13-3.4-rc7.10.patch
+# URL https://git.kernel.org/cgit/linux/kernel/git/mszeredi/vfs.git/patch/?id=1114b0a86b9abd60f71a818af9b22fca88db0a07
+bc6e33dde63850d2903e9de492b672255798d2fde241316079b2e5d3fbcb29f0  /usr/local/portage/distfiles/overlayfs.v13-3.4-rc7.11.patch
+# URL https://git.kernel.org/cgit/linux/kernel/git/mszeredi/vfs.git/patch/?id=fa07da7f8b6a2a76cff9fd22808b84c0f6bfa8e0
+54f13a9aa9fc06f183b556aa4d80db654772f3ea8be12b3fb706f7e1e666b614  /usr/local/portage/distfiles/overlayfs.v13-3.4-rc7.12.patch
+# URL https://git.kernel.org/cgit/linux/kernel/git/mszeredi/vfs.git/patch/?id=a1f4356e0126802b26e2c2267271c33375b21f3f
+1d8276c8ba6a197740995aadca0d03f4bb23aad384b463df89a2bcbbcbd741ca  /usr/local/portage/distfiles/overlayfs.v13-3.4-rc7.13.patch

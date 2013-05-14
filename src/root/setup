@@ -118,8 +118,10 @@ if [ "$1" = fresh  -o  ! -e /usr/src/linux-${kversion}/incremental ]; then
 
 
     sinfo "Downloading kernel patches"
+    localkpatches=''
     for url in `sed -n 's/^# URL //p' ${kpatches}`; do
         urldest=`sed -n "\@^# URL ${url}@{n; s/.*  //p}" ${kpatches}`
+        localkpatches="${localkpatches} ${urldest}"
         mkdir -p "${urldest%/*}"
         su - -m -s /bin/sh nobody -c "wget -q -O - \"${url}\"" > "${urldest}"
         sed -i '/^diff --git /,/^-- /{/^-- /d; b}; d' "${urldest}"
@@ -128,7 +130,9 @@ if [ "$1" = fresh  -o  ! -e /usr/src/linux-${kversion}/incremental ]; then
 
 
     sinfo "Applying kernel patches"
-    spatch /usr/local/portage/distfiles/overlayfs.v13-3.4-rc7.patch -d /usr/src/linux-${kversion} -p1
+    for patch in ${localkpatches}; do
+        spatch ${patch} -d /usr/src/linux-${kversion} -p1
+    done
     spatch ${HOME}/patches/pax-linux-3.4.7-test27-29-diff.patch     -d /usr/src/linux-${kversion} -p1
 
 
