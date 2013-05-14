@@ -9,11 +9,13 @@ K_WANT_GENPATCHES="base extras"
 K_GENPATCHES_VER="8"
 K_DEBLOB_AVAILABLE="1"
 
-GENPATCHES_URI="http://dev.gentoo.org/~mpagano/genpatches/tarballs/genpatches-3.4-8.base.tar.bz2
-                http://dev.gentoo.org/~mpagano/genpatches/tarballs/genpatches-3.4-8.extras.tar.bz2"
-
 inherit kernel-2
 detect_version
+
+GENPATCHES_URI="http://dev.gentoo.org/~mpagano/genpatches/tarballs/genpatches-${KV_MAJOR}.${KV_MINOR}-${K_GENPATCHES_VER}.base.tar.bz2
+                http://dev.gentoo.org/~mpagano/genpatches/tarballs/genpatches-${KV_MAJOR}.${KV_MINOR}-${K_GENPATCHES_VER}.extras.tar.bz2"
+UNIPATCH_LIST_GENPATCHES="${DISTDIR}/genpatches-${KV_MAJOR}.${KV_MINOR}-${K_GENPATCHES_VER}.base.tar.bz2
+                          ${DISTDIR}/genpatches-${KV_MAJOR}.${KV_MINOR}-${K_GENPATCHES_VER}.extras.tar.bz2"
 
 HGPV="${KV_MAJOR}.${KV_MINOR}.${KV_PATCH}-1"
 HGPV_URI="http://dev.gentoo.org/~blueness/hardened-sources/hardened-patches/hardened-patches-${HGPV}.extras.tar.bz2"
